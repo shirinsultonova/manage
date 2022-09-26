@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+</head>
+<body class="site-body font-mainFont font-bold md:overflow-y-auto bg-body-bg bg-no-repeat bg-mbodybg lg:bg-dbodybg">
+
+    <!-- Header start -->
+    <header class="site-header pt-10 pb-10 md:pt-14">
+        <div class="container mx-auto px-5 lg:px-10">
+            <div class="relative flex items-center justify-between ">
+                <a class="logo" href="./index.html">
+                    <img class="block h-auto" src="./images/logo.svg" alt="Site main logo">
+                </a>
+
+                <nav class="js-navbar  absolute hidden w-full  top-0 left-0 md:static md:block md:w-auto z-10">
+                    <ul class="mt-14 ml-auto flex flex-col items-center justify-between max-w-mxnavbar w-full p-10 bg-white rounded list-none md:static md:top-0 md:right-0 md:flex-row md:max-w-none md:w-auto md:mt-0 md:ml-0 md:p-0 md:bg-transparent md:rounded-none">
+                        <li class="mb-6 md:mb-0 md:mr-8">
+                            <a class="font-bold text-base text-textblack  transition-opacity hover:opacity-50 md:font-medium md:text-link" href="#">
+                                Pricing
+                            </a>
+                        </li>
+                        <li class="mb-6 md:mb-0 md:mr-8">
+                            <a class="font-bold text-base text-textblack transition-opacity hover:opacity-50 md:font-medium md:text-link" href="#">
+                                Product
+                            </a>
+                        </li>
+                        <li class="mb-6 md:mb-0 md:mr-8">
+                            <a class="font-bold text-base text-textblack transition-opacity hover:opacity-50 md:font-medium md:text-link" href="#">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="mb-6 md:mb-0 md:mr-8">
+                            <a class="font-bold text-base text-textblack transition-opacity hover:opacity-50 md:font-medium md:text-link" href="#">
+                                Careers
+                            </a>
+                        </li>
+                        <li>
+                            <a class="font-bold text-base text-textblack transition-opacity hover:opacity-50 md:font-medium md:text-link" href="#">
+                                Community
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <a class="hidden lg:inline-block py-3 max-w-mxwlink w-full text-center rounded-3xl text-link text-linkcolor bg-mainorange shadow-link hover:opacity-50" href="#">Get Started</a>
+                <button class="js-burger-btn inline-block w-7 h-5 bg-burger bg-no-repeat bg-center z-20	 md:hidden" type="button"></button>
+
+            </div>
+            <div class="js-overlay absolute hidden h-full w-full top-0 left-0 bg-navbar-gr md:hidden">
+            </div>
+        </div>
+    </header>
+    <!-- Header finish -->
+
+    <!-- Main start -->
+    <main class="site-main">
+        <!-- Hero section start  -->
+        <section class="hero mt-2 mb-20 pb-4 md:mt-20 md:mb-32 md:pb-1">
+            <div class="container mx-auto px-5 lg:px-10">
+                <div class="flex flex-col-reverse items-center justify-between lg:flex-row">
+                    <div class="flex flex-col items-center max-w-mxtext w-full mt-5 lg:items-start text-mainblue lg:mt-0 lg:mr-5">
+                        <h1 class="text-mh1 mb-2 text-center lg:text-dh1 lg:mb-4 lg:text-start">
+                            Bring everyone
+                            together to build
+                            better products.
+                        </h1>
+
+                        <p class="font-light text-mdesc mb-7 text-center lg:font-normal text-mainblue lg:text-ddesc lg:mb-10 lg:text-start">
+                            Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.
+                        </p>
+
+                        <a class="inline-block py-3 max-w-mxwlink w-full text-center rounded-3xl text-link text-linkcolor bg-mainorange shadow-link hover:opacity-50" href="#">Get Started</a>
+                    </div>
+
+                    <div class="grid grid-cols-2 max-w-mxheroimg w-full place-items-center gap-x-3 gap-y-2 md:gap-x-5 md:gap-y-4">
+                        <div class="bg-white h-full w-full pt-4 pr-3 pb-4 pl-4 rounded">
+                            <img src="./images/schedule.svg" alt="image">
+                        </div>
+                        <div class="flex items-center justify-center bg-white  h-full w-full pt-4 pr-3 pb-4 pl-4 rounded">
+                            <img src="./images/circle.svg" alt="image">
+                        </div>
+                        <div class="col-span-2 bg-white h-full pt-4 pr-3 pb-4 pl-4 rounded">
+                            <img src="./images/numbers.svg" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero section finish  -->
+
+        <section class="mb-12 lg:mb-40 lg:pb-1">
+            <div class="container mx-auto px-5 lg:px-10">
+                <div class="flex flex-col items-center justify-between lg:flex-row lg:items-start">
+                    <div class="max-w-mxtext w-full mb-14 lg:mb-0 lg:mr-3">
+                        <h2 class="text-mh2 mb-3 text-center text-mainblue lg:mb-6 lg:text-dh2 lg:text-start">
+                            What’s different about Manage?
+                        </h2>
+                        <p class="font-normal text-mdesc text-mainblue opacity-50 lg:text-ddesc">
+                            Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams. 
+                        </p>
+                    </div>
+
+                    <ul class="list-none">
+                        <li class="mb-12 lg:mb-10">
+                            <div class="flex items-center bg-mainpink rounded-2xl mb-2 lg:bg-transparent">
+                                <span class="py-2 px-6 text-h3 text-white bg-mainorange rounded-3xl">01</span>
+                                <h3 class="text-h3 ml-4 text-mainblue lg:ml-7">
+                                    Track company-wide progress
+                                </h3>
+                            </div>
+                            <div class="max-w-mxtext w-full lg:ml-24">
+                                <p class="font-normal text-mdesc text-mainblue opacity-50">
+                                    See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mb-12 lg:mb-10">
+                            <div class="flex items-center bg-mainpink rounded-2xl mb-2 lg:bg-transparent">
+                                <span class="py-2 px-6 text-h3 text-white bg-mainorange rounded-3xl">02</span>
+                                <h3 class="text-h3 ml-4 text-mainblue lg:ml-7">
+                                    Advanced built-in reports
+                                </h3>
+                            </div>
+                            <div class="max-w-mxtext w-full lg:ml-24">
+                                <p class="font-normal text-mdesc text-mainblue opacity-50">
+                                    Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center bg-mainpink rounded-2xl mb-2 lg:bg-transparent">
+                                <span class="py-2 px-6 text-h3 text-white bg-mainorange rounded-3xl">03</span>
+                                <h3 class="text-h3 ml-4 text-mainblue lg:ml-7">
+                                    Everything you need in one place
+                                </h3>
+                            </div>
+                            <div class="max-w-mxtext w-full lg:ml-24">
+                                <p class="font-normal text-mdesc text-mainblue opacity-50">
+                                    Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="overflow-hidden mb-11 lg:mb-40">
+            <h2 class="text-mh2 md:text-dh2 text-mainblue text-center mb-16">
+                What they’ve said
+            </h2> 
+
+            <ul class="carousel">
+                <li class="relative flex flex-col items-center max-w-mxheroimg w-full mr-8 mt-3 pt-14 pr-10 pb-10 pl-10 bg-coruselbg">   
+                    <img class="absolute top-0 left-2/4 -translate-y-2/4 -translate-x-2/4 mx-auto z-20" src="./images/anisha.png" 
+                    width="72"
+                    height="72"
+                    srcset="./images/anisha.png 1x , ./images/anisha@2x.png 2x"
+                    alt="image">
+
+                    <h3 class="text-h3 text-mainblue mt-5 mb-5 text-center">
+                        Anisha Li
+                    </h3>
+
+                    <p class="font-normal text-mdesc text-mainblue opacity-50 text-center md:text-ddesc">
+                        “Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones atall times keeps everyone motivated.”
+                    </p>
+                </li>
+                <li class="relative flex flex-col items-center max-w-mxheroimg w-full mr-8 mt-3 pt-14 pr-10 pb-10 pl-10 bg-coruselbg">   
+                    <img class="absolute top-0 left-2/4 -translate-y-2/4 -translate-x-2/4 mx-auto z-20" src="./images/ali.png" 
+                    width="72"
+                    height="72"
+                    srcset="./images/ali.png 1x , ./images/ali@2x.png 2x"
+                    alt="image">
+
+                    <h3 class="text-h3 text-mainblue mt-5 mb-5 text-center">
+                        Ali Bravo
+                    </h3>
+
+                    <p class="font-normal text-mdesc text-mainblue opacity-50 text-center md:text-ddesc">
+                        “We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”
+                    </p>
+                </li>
+                <li class="relative flex flex-col items-center max-w-mxheroimg w-full mr-8 mt-3 pt-14 pr-10 pb-10 pl-10 bg-coruselbg">   
+                    <img class="absolute top-0 left-2/4 -translate-y-2/4 -translate-x-2/4 mx-auto z-20" src="./images/richard.png" 
+                    width="72"
+                    height="72"
+                    srcset="./images/richard.png 1x , ./images/richard@2x.png 2x"
+                    alt="image">
+
+                    <h3 class="text-h3 text-mainblue mt-5 mb-5 text-center">
+                        Richard Watts
+                    </h3>
+
+                    <p class="font-normal text-mdesc text-mainblue opacity-50 text-center md:text-ddesc">
+                        “Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”
+                    </p>
+                </li>
+                <li class="relative flex flex-col items-center max-w-mxheroimg w-full pt-14 mt-3 pr-10 pb-10 pl-10 bg-coruselbg">   
+                    <img class="absolute top-0 left-2/4 -translate-y-2/4 -translate-x-2/4 mx-auto z-20" src="./images/shanai.png" 
+                    width="72"
+                    height="72"
+                    srcset="./images/shanai.png 1x , ./images/shanai@2x.png 2x"
+                    alt="image">
+
+                    <h3 class="text-h3 text-mainblue mt-5 mb-5 text-center">
+                        Shanai Gough
+                    </h3>
+
+                    <p class="font-normal text-mdesc text-mainblue opacity-50 text-center md:text-ddesc">
+                        “Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”
+                    </p>
+                </li>
+            </ul>
+
+            <a class="block mt-12 mx-auto py-3 max-w-mxwlink w-full text-center rounded-3xl text-link text-linkcolor bg-mainorange shadow-link hover:opacity-50" href="#">Get Started</a>
+        </section>
+
+        <article class="py-16 bg-mainorange bg-article-bg bg-no-repeat bg-articlebg">
+            <div class="container mx-auto px-5 lg:px-10">
+                <div class="flex flex-col justify-between items-center md:flex-row">
+                    <div class="max-w-mxtext mb-7 md:mb-0">
+                        <h2 class="text-mh2 md:text-dh2 text-white text-center md:text-start">
+                            Simplify how your team works today.
+                        </h2>
+                    </div>
+                    <a class="inline-block py-3 max-w-mxwlink w-full text-center rounded-3xl text-link text-mainorange bg-white shadow-link2 hover:opacity-50" href="#">Get Started</a>
+                </div>
+            </div>
+        </article>
+    </main>
+    <!-- Main finish  -->
+
+    <!-- Footer start -->
+    <footer class="site-footer bg-textblack pt-12 pb-8 lg:py-16">
+        <div class="container mx-auto px-5 lg:px-10">
+            <div class="relative flex flex-col-reverse justify-between lg:flex-row">
+                <div class="flex flex-col-reverse items-center justify-between mb-14 lg:flex-col lg:items-start lg:mr-5 lg:mb-0">
+                    <a class="inline-block text-white" href="./index.html">
+                        <svg width="147" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M118.704 23.74c1.2 0 2.274-.14 3.22-.421.947-.281 1.743-.673 2.387-1.175a6.387 6.387 0 0 0 1.602-1.844 8.13 8.13 0 0 0 .916-2.383c.188-.86.281-1.803.281-2.829V.265h-3.782v1.737h-.066a7.064 7.064 0 0 0-2.353-1.49A7.627 7.627 0 0 0 118.142 0c-1.508 0-2.862.358-4.062 1.075-1.2.717-2.134 1.713-2.8 2.987-.666 1.273-.999 2.705-.999 4.293 0 1.61.35 3.038 1.049 4.285.699 1.246 1.66 2.203 2.882 2.87 1.222.667 2.598 1.001 4.129 1.001 2.047 0 3.716-.673 5.004-2.018h.066v1.753c0 1.17-.43 2.14-1.288 2.912-.859.772-2.07 1.158-3.634 1.158-1.068 0-2.006-.132-2.816-.397-.809-.265-1.742-.678-2.799-1.24l-.892 3.341c.925.552 1.966.976 3.122 1.274 1.156.298 2.356.447 3.6.447ZM40.014 8.554v8.256h-3.782v-8.62c0-3.154-1.095-4.731-3.286-4.731-1.156 0-2.106.455-2.85 1.365-.742.91-1.114 2.153-1.114 3.73v8.24H25.2V.264h3.782v2.283h.05A6.975 6.975 0 0 1 31.385.67a6.335 6.335 0 0 1 2.8-.653c2.3 0 3.941.915 4.92 2.746h.067A6.834 6.834 0 0 1 41.732.72c1.013-.47 2.13-.703 3.352-.703 1.861 0 3.292.598 4.294 1.795 1.002 1.196 1.503 3.002 1.503 5.418v9.579H47.1v-8.62c0-3.154-1.079-4.731-3.237-4.731-1.1 0-2.017.455-2.75 1.365-.732.91-1.098 2.153-1.098 3.73Zm26.353 6.022c-1.255 1.655-3.006 2.482-5.252 2.482a8.324 8.324 0 0 1-3.179-.604 7.348 7.348 0 0 1-2.535-1.696c-.705-.728-1.26-1.621-1.668-2.68-.407-1.059-.611-2.217-.611-3.474 0-1.224.203-2.371.61-3.441.408-1.07.964-1.98 1.669-2.73A7.76 7.76 0 0 1 61.082.017c2.147 0 3.848.744 5.103 2.233h.066V.265h3.782v16.527h-3.616v-2.217h-.05Zm-4.657-.96c-1.398 0-2.538-.465-3.419-1.397-.88-.932-1.321-2.132-1.321-3.599 0-1.555.454-2.804 1.362-3.747.909-.943 2.04-1.414 3.394-1.414 1.343 0 2.458.493 3.345 1.48.886.988 1.33 2.215 1.33 3.681 0 1.467-.455 2.667-1.363 3.599-.909.932-2.018 1.398-3.328 1.398Zm27.112-6.55v9.744H85.04V8.04c0-.86-.077-1.588-.23-2.183-.155-.596-.392-1.067-.711-1.415a2.8 2.8 0 0 0-1.115-.753c-.424-.154-.933-.231-1.527-.231-1.3 0-2.337.44-3.114 1.323-.776.883-1.164 2.118-1.164 3.706v8.305h-3.782V.265h3.782V2.53h.05a6.957 6.957 0 0 1 2.477-1.87A7.373 7.373 0 0 1 82.76.018c1.894 0 3.378.576 4.451 1.728 1.074 1.153 1.61 2.926 1.61 5.32Zm10.218 9.992c2.246 0 3.996-.827 5.252-2.482h.049v2.217h3.617V.265h-3.782V2.25h-.066C102.855.761 101.154.017 99.007.017a7.76 7.76 0 0 0-5.681 2.415c-.705.75-1.261 1.66-1.669 2.73a9.59 9.59 0 0 0-.61 3.44c0 1.258.203 2.416.61 3.475.408 1.059.964 1.952 1.669 2.68a7.347 7.347 0 0 0 2.535 1.696 8.324 8.324 0 0 0 3.179.604Zm-2.824-4.84c.88.933 2.02 1.399 3.418 1.399 1.311 0 2.42-.466 3.328-1.398.908-.932 1.363-2.132 1.363-3.599 0-1.466-.444-2.693-1.33-3.68-.886-.988-2.001-1.481-3.344-1.481-1.354 0-2.486.471-3.394 1.414-.908.943-1.363 2.192-1.363 3.747 0 1.467.44 2.667 1.322 3.599Zm19.243-.495c.886.865 2.012 1.298 3.377 1.298 1.376 0 2.497-.455 3.361-1.365.864-.91 1.296-2.065 1.296-3.466 0-1.39-.443-2.52-1.329-3.391-.886-.872-1.996-1.307-3.328-1.307-1.398 0-2.532.441-3.402 1.323-.87.883-1.305 2.024-1.305 3.425 0 1.456.443 2.617 1.33 3.482Zm22.463 5.335c1.542 0 2.899-.281 4.071-.844 1.173-.562 2.133-1.323 2.882-2.283l-2.642-2.266c-1.035 1.301-2.406 1.952-4.113 1.952-1.211 0-2.237-.337-3.08-1.01-.842-.672-1.384-1.593-1.626-2.762h12.023c.066-.397.099-.9.099-1.506 0-1.599-.325-3.027-.975-4.285a7.194 7.194 0 0 0-2.807-2.961c-1.222-.717-2.632-1.075-4.228-1.075a8.194 8.194 0 0 0-3.188.62 7.575 7.575 0 0 0-2.559 1.729c-.716.739-1.278 1.638-1.685 2.696-.407 1.06-.611 2.212-.611 3.458 0 1.688.369 3.185 1.106 4.492.738 1.307 1.746 2.308 3.023 3.003 1.277.695 2.714 1.042 4.31 1.042ZM133.48 6.783h8.257c-.242-1.026-.707-1.836-1.395-2.432-.688-.595-1.561-.893-2.618-.893-1.046 0-1.949.29-2.709.868-.759.58-1.271 1.398-1.535 2.457Z" fill="currentColor"/><g fill="#F3603C"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.571 2.857c0 1.578-1.247 2.857-2.785 2.857C1.247 5.714 0 4.435 0 2.857 0 1.28 1.247 0 2.786 0 4.324 0 5.57 1.28 5.57 2.857Zm0 10.286C5.571 14.72 4.324 16 2.786 16 1.247 16 0 14.72 0 13.143c0-1.578 1.247-2.857 2.786-2.857 1.538 0 2.785 1.279 2.785 2.857Zm7.243-7.429c1.539 0 2.786-1.279 2.786-2.857C15.6 1.28 14.353 0 12.814 0c-1.538 0-2.785 1.28-2.785 2.857 0 1.578 1.247 2.857 2.785 2.857Z"/><ellipse opacity=".5" cx="12.814" cy="13.257" rx="2.786" ry="2.857"/></g></svg>
+                    </a>
+
+                    <ul class="flex items-center list-none mb-14 lg:mb-0 lg:mt-20">
+                        <li class="mr-8 lg:mr-3">
+                            <a class="inline-block  text-white transition hover:text-mainorange" href="#" target="blank">
+                                <svg width="20" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0Z" fill="currentColor"/></svg>
+                            </a>
+                        </li>
+                        <li class="mr-8 lg:mr-3">
+                            <a class="inline-block  text-white transition hover:text-mainorange" href="#" target="blank">
+                                <svg width="21" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.333 0c-5.522 0-10 4.478-10 10 0 5.523 4.478 10 10 10 5.523 0 10-4.477 10-10 0-5.522-4.477-10-10-10Zm3.701 14.077c-1.752.12-5.653.12-7.402 0C4.735 13.947 4.514 13.018 4.5 10c.014-3.024.237-3.947 2.132-4.077 1.749-.12 5.651-.12 7.402 0 1.898.13 2.118 1.059 2.133 4.077-.015 3.024-.238 3.947-2.133 4.077Zm-1.27-4.08L8.667 8.048v3.904l4.097-1.955Z" fill="currentColor"/></svg>
+                            </a>
+                        </li>
+                        <li class="mr-8 lg:mr-3">
+                            <a class="inline-block  text-white transition hover:text-mainorange" href="#" target="blank">
+                                <svg width="21" height="18" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M20.667 2.797a8.192 8.192 0 0 1-2.357.646 4.11 4.11 0 0 0 1.804-2.27 8.22 8.22 0 0 1-2.606.996A4.096 4.096 0 0 0 14.513.873c-2.649 0-4.595 2.472-3.997 5.038a11.648 11.648 0 0 1-8.457-4.287 4.109 4.109 0 0 0 1.27 5.478A4.086 4.086 0 0 1 1.47 6.59c-.045 1.901 1.317 3.68 3.29 4.075a4.111 4.111 0 0 1-1.853.07 4.106 4.106 0 0 0 3.834 2.85 8.25 8.25 0 0 1-6.075 1.7 11.616 11.616 0 0 0 6.29 1.843c7.618 0 11.922-6.434 11.662-12.205a8.353 8.353 0 0 0 2.048-2.125Z" fill="currentColor"/></svg>
+                            </a>
+                        </li>
+                        <li class="mr-8 lg:mr-3">
+                            <a class="inline-block  text-white transition hover:text-mainorange" href="#" target="blank">
+                                <svg width="20" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 0C4.478 0 0 4.477 0 10c0 4.237 2.636 7.855 6.356 9.312-.088-.791-.167-2.005.035-2.868.181-.78 1.172-4.97 1.172-4.97s-.299-.6-.299-1.486c0-1.39.806-2.428 1.81-2.428.852 0 1.264.64 1.264 1.408 0 .858-.545 2.14-.828 3.33-.236.995.5 1.807 1.48 1.807 1.778 0 3.144-1.874 3.144-4.58 0-2.393-1.72-4.068-4.177-4.068-2.845 0-4.515 2.135-4.515 4.34 0 .859.331 1.781.745 2.281a.3.3 0 0 1 .069.288l-.278 1.133c-.044.183-.145.223-.335.134-1.249-.581-2.03-2.407-2.03-3.874 0-3.154 2.292-6.052 6.608-6.052 3.469 0 6.165 2.473 6.165 5.776 0 3.447-2.173 6.22-5.19 6.22-1.013 0-1.965-.525-2.291-1.148l-.623 2.378c-.226.869-.835 1.958-1.244 2.621.937.29 1.931.446 2.962.446 5.523 0 10-4.477 10-10S15.523 0 10 0Z" fill="currentColor"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="inline-block  text-white transition hover:text-mainorange" href="#" target="blank">
+                                <svg width="21" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.333 0C7.618 0 7.278.012 6.211.06 2.579.227.56 2.242.394 5.877.345 6.944.334 7.284.334 10s.011 3.057.06 4.123c.166 3.632 2.181 5.65 5.816 5.817 1.068.048 1.408.06 4.123.06 2.716 0 3.057-.012 4.124-.06 3.628-.167 5.651-2.182 5.816-5.817.049-1.066.06-1.407.06-4.123s-.011-3.056-.06-4.122C20.11 2.249 18.093.228 14.457.06 13.39.01 13.05 0 10.334 0Zm0 1.802c2.67 0 2.987.01 4.042.059 2.71.123 3.976 1.409 4.1 4.099.047 1.054.057 1.37.057 4.04 0 2.672-.01 2.988-.058 4.042-.124 2.687-1.387 3.975-4.099 4.099-1.055.048-1.37.058-4.042.058-2.67 0-2.986-.01-4.04-.058-2.717-.124-3.976-1.416-4.1-4.1-.048-1.054-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.125-2.69 1.387-3.977 4.1-4.1 1.055-.048 1.37-.058 4.04-.058ZM5.198 10a5.135 5.135 0 1 1 10.27 0 5.135 5.135 0 0 1-10.27 0Zm5.135 3.333a3.333 3.333 0 1 1 0-6.666 3.333 3.333 0 0 1 0 6.666Zm4.138-8.67a1.2 1.2 0 1 1 2.4 0 1.2 1.2 0 0 1-2.4 0Z" fill="currentColor"/></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="flex justify-between max-w-sm w-full mt-14 mb-12 mx-auto lg:my-0 lg:mx-0">
+                    <ul class="list-none">
+                        <li class="mb-3">
+                            <a class="font-normal text-footlink text-white transition hover:text-mainorange" href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li class="mb-3">
+                            <a class="font-normal text-footlink text-white transition hover:text-mainorange" href="#">
+                                Pricing
+                            </a>
+                        </li>
+                        <li class="mb-3">
+                            <a class="font-normal text-footlink text-white transition hover:text-mainorange" href="#">
+                                Products
+                            </a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-footlink text-white transition hover:text-mainorange" href="#">
+                                About Us
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="list-none">
+                        <li class="mb-3">
+                            <a class="font-normal text-footlink text-white transition hover:text-mainorange" href="#">
+                                Careers
+                            </a>
+                        </li>
+                        <li class="mb-3">
+                            <a class="font-normal text-footlink text-white transition hover:text-mainorange" href="#">
+                                Community
+                            </a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-footlink text-white transition hover:text-mainorange" href="#">
+                                Privacy Policy
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="flex justify-center items-start" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+                    <label class="relative mr-2">
+                        <input class="peer pt-3 pb-3 px-4 font-normal text-link text-mainblue bg-white border rounded-3xl border-white transition invalid:border-invalidcolor invalid:text-invalidcolor" type="email" name="user_email" id="user_email"
+                        aria-label="Enter your email" placeholder="Updates in your inbox…">
+                        <p class="absolute bottom-0 left-0 translate-y-4 font-normal italic invisible peer-invalid:visible text-xs text-invalidcolor">
+                            Please insert a valid email
+                        </p>
+                    </label>
+
+                    <button class="inline-block py-3 px-6 text-center rounded-3xl text-link text-linkcolor bg-mainorange hover:opacity-50" type="submit">
+                        Go
+                    </button>
+                </form>
+
+                <p class="absolute bottom-0 right-2/4 translate-x-2/4 font-normal text-link text-white opacity-50 lg:right-0 lg:translate-x-0">Copyright 2020. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer finish -->
+
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
+    
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
